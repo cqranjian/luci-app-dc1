@@ -7,7 +7,7 @@ include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI support for FeiXunChapai
 LUCI_PKGARCH:=all
-LUCI_DEPENDS:=+feixun
+# LUCI_DEPENDS:=+feixun
 PKG_NAME:=luci-app-dc1
 PKG_VERSION:=1.0
 PKG_RELEASE:=1
