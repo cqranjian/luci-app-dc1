@@ -29,7 +29,7 @@ jobs:
         done
         tag_name=$(basename ${{github.ref}})
         hub release create -p "${assets[@]}" -m "$tag_name" "$tag_name"
-    - name: Upload Log
+    - name: Upload Log1
       if: ${{ always() }}
       uses: actions/upload-artifact@v2
       with:
